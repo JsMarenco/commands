@@ -63,3 +63,17 @@ Those commands are so useful
 ```bash
   npx create-react-app my-app
 ```
+#### yarn
+```bash
+  yarn create react-app my-app
+```
+
+## Create react app with Typescript
+#### npm
+```bash
+  npx create-react-app my-app --template typescript
+```
+#### yarn
+```bash
+  yarn create react-app my-app --template typescript
+```
