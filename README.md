@@ -1,6 +1,9 @@
 
 
-
+# Scripts
+```bash
+  "linter": "eslint --fix src/**/*.{ts,tsx}"
+```
 
 # Commands
 
