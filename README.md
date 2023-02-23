@@ -1,5 +1,5 @@
-Index
------
+## Index
+
 - [Scripts](#scripts)
 - [Comments to separate dependencies](#comments-to-separate-dependencies)
 - [Index css](#index-css)
@@ -31,14 +31,20 @@ Index
   - [Create react app with Typescript](#create-react-app-with-typescript)
     - [npm](#create-react-app-with-typescript-npm)
     - [yarn](#create-react-app-with-typescript-yarn)
-
+  - [Install tailwind](#install-tailwind)
+    - [npm](#install-tailwind-npm)
+    - [yarn](#install-tailwind-yarn)
+  - [Generate tailwind full file config](#generate-tailwind-full-file-config)
+    - [npm](#generate-tailwind-full-file-config)-npm)
 
 # Scripts
+
 ```bash
   "linter": "eslint --fix src/**/*.{ts,tsx}"
 ```
 
 # Comments to separate dependencies
+
 ```bash
   // Third-party dependencies
 
@@ -46,6 +52,7 @@ Index
 ```
 
 # Index css
+
 ```bash
   * {
     margin: 0;
@@ -81,6 +88,7 @@ Index
 ```
 
 # ESlint rules
+
 ```bash
   "no-multiple-empty-lines": [
     "error",
@@ -91,6 +99,7 @@ Index
 ```
 
 # Editor config
+
 ```bash
   root = true
 
@@ -103,48 +112,64 @@ Index
 
 # Commands
 
-Those commands are so useful
-
 ## Nextjs
+
 #### npm
+
 ```bash
   npx create-next-app@latest
 ```
+
 #### yarn
+
 ```bash
   yarn create next-app
 ```
-    
+
 ## Material UI
+
 #### npm
+
 ```bash
   npm install @mui/material @emotion/react @emotion/styled
 ```
+
 #### yarn
+
 ```bash
   yarn add @mui/material @emotion/react @emotion/styled
 ```
 
 ## Material UI icons
+
 #### npm
+
 ```bash
   npm install @mui/icons-material
 ```
+
 #### yarn
+
 ```bash
   yarn add @mui/icons-material
 ```
 
 ## Roboto font
+
 #### npm
+
 ```bash
   npm install @fontsource/roboto
 ```
+
 #### yarn
+
 ```bash
   yarn add @fontsource/roboto
 ```
+
 #### Then you can import it in your entry point like this:
+
 ```bash
   import '@fontsource/roboto/300.css';
   import '@fontsource/roboto/400.css';
@@ -153,43 +178,81 @@ Those commands are so useful
 ```
 
 ## Material UI and icons
+
 #### npm
+
 ```bash
   npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
+
 #### yarn
+
 ```bash
   yarn add @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
 ## Create a eslint config file
+
 #### npm
+
 ```bash
   npm init @eslint/config
 ```
 
 ## Generate a tsconfig.json
+
 #### npm
+
 ```bash
   tsc --init
 ```
 
 ## Create react app
+
 #### npm
+
 ```bash
   npx create-react-app my-app
 ```
+
 #### yarn
+
 ```bash
   yarn create react-app my-app
 ```
 
 ## Create react app with Typescript
+
 #### npm
+
 ```bash
   npx create-react-app my-app --template typescript
 ```
+
 #### yarn
+
 ```bash
   yarn create react-app my-app --template typescript
+```
+
+## Install tailwind
+
+#### npm
+
+```bash
+  npm install tailwindcss autoprefixer postcss-cli
+```
+
+#### yarn
+
+```bash
+  yarn add tailwindcss autoprefixer postcss-cli
+```
+
+## Generate tailwind full file config
+
+#### npm
+
+```bash
+  npx tailwindcss init tailwind.config.full.js --full
 ```
