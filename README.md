@@ -5,6 +5,27 @@
   "linter": "eslint --fix src/**/*.{ts,tsx}"
 ```
 
+# ESlint rules
+```bash
+  "no-multiple-empty-lines": [
+    "error",
+    {
+      "max": 1
+    }
+  ]
+```
+
+# Editor config
+```bash
+  root = true
+
+  [*.{js,ts,tsx}]
+  blank_line_maximum = 1
+  end_of_line = lf
+  insert_final_newline = true
+  trim_trailing_whitespace = true
+```
+
 # Commands
 
 Those commands are so useful
