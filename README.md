@@ -60,6 +60,23 @@ Those commands are so useful
   yarn add @mui/icons-material
 ```
 
+## Roboto font
+#### npm
+```bash
+  npm install @fontsource/roboto
+```
+#### yarn
+```bash
+  yarn add @fontsource/roboto
+```
+#### Then you can import it in your entry point like this:
+```bash
+  import '@fontsource/roboto/300.css';
+  import '@fontsource/roboto/400.css';
+  import '@fontsource/roboto/500.css';
+  import '@fontsource/roboto/700.css';
+```
+
 ## Material UI and icons
 #### npm
 ```bash
