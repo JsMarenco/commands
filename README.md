@@ -5,6 +5,13 @@
   "linter": "eslint --fix src/**/*.{ts,tsx}"
 ```
 
+# Comments to separate dependencies
+```bash
+  // Third-party dependencies
+
+  // Current project dependencies
+```
+
 # ESlint rules
 ```bash
   "no-multiple-empty-lines": [
