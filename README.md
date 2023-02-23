@@ -12,6 +12,41 @@
   // Current project dependencies
 ```
 
+# Index css
+```bash
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* user-select: none; */
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    opacity: 0;
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar:hover {
+    opacity: 1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #9b59b6;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+```
+
 # ESlint rules
 ```bash
   "no-multiple-empty-lines": [
